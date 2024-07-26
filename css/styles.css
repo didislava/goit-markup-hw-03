@@ -1,0 +1,302 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img {
+    display: block;
+}
+
+.conteiner {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto ;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-conteiner {
+    display: flex; 
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo-color {
+    color: #2e2f42;
+}
+
+.header-menu-list{
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
+}
+
+.header-contacts-list {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-contacts {
+    gap: 40px;
+}
+
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-contacts-link {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+}
+
+.header-contacts{
+    display: flex;
+}
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-conteiner {
+    padding: 188px 472px 188px;
+}
+
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.hero-primary-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    padding: 16px 40px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero-primary-button:hover,
+.hero-primary-button:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-items {
+    width: calc((100%- 2 * 24px) / 3)
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.features-subtitles {
+    margin-bottom: 8px;
+}
+
+.features-item-text {
+
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.section-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-paragraf{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background: #f4f4fd;
+    padding: 120px;
+}
+
+.team-title {
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    border: none;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-subtitle { 
+}
+
+.team-conteiner {
+
+}
+
+.team-item-text {
+    margin-bottom: 32px;
+    
+}
+
+.team-image {
+    margin-bottom: 32px;
+}
+
+.portfolio {
+    padding: 120px;
+}
+
+.portfolio-title {
+    text-transform: capitalize;
+    margin: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    width: calc((100 - 2 * 24px) / 3);
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+}
+
+.portfolio-image {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 32px;
+}
+
+.portfolio-subtitle {
+    margin-bottom: 8px;
+}
+
+.portfolio-item-text {
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px;
+}
+
+.footer-logo-color {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    width: 264px;
+    margin-top: 16px;
+}
