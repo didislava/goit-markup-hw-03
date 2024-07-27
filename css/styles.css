@@ -55,7 +55,7 @@ h6 {
 .header-navigation {
     display: flex;
     align-items: center;
-    
+    padding: 24px 0;    
 }
 
 .logo {
@@ -83,7 +83,6 @@ h6 {
 .header-contacts-list {
     font-style: normal;
     margin-left: auto;
-    padding: 24px 0;
 }
 
 .header-contacts {
