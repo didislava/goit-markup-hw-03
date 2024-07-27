@@ -310,7 +310,15 @@ h6 {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px;
+    padding: 100px 0;
+}
+
+.footer-container {
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -319,6 +327,6 @@ h6 {
 
 .footer-text {
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
     margin-top: 16px;
 }
