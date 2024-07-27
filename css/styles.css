@@ -42,8 +42,7 @@ h6 {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -76,7 +75,6 @@ h6 {
     display: flex;
     margin-left: 76px;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-contacts-list {
@@ -225,10 +223,9 @@ h6 {
     padding: 120px 0;
 }
 
-.team-conteiner {
-}
+.team-container {
 
-.team-container
+}
 
 .team-title {
     text-transform: capitalize;
@@ -247,6 +244,7 @@ h6 {
     border-radius: 0 0 4px 4px;
     border: none;
     width: calc((100% - 3 * 24px) / 4);
+    padding: 32px 0;
 }
 
 .team-name {
