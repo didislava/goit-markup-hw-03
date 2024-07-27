@@ -163,6 +163,10 @@ h6 {
     padding-bottom: 50px;
 }
 
+.features-container {
+    
+}
+
 .features-list {
     display: flex;
     gap: 24px;
