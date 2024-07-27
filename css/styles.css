@@ -19,7 +19,7 @@ button {
     cursor: pointer;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -35,7 +35,7 @@ h6 {
 }
 
 .conteiner {
-    width: 1158x;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto ;
@@ -80,7 +80,7 @@ h6 {
 }
 
 .header-contacts-list {
-    padding: 24px 0;
+    padding: 24px 0px;
     font-style: normal;
     margin-left: auto;
 }
