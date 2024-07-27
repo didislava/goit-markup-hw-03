@@ -225,6 +225,9 @@ h6 {
     padding: 120px;
 }
 
+.team-conteiner {
+}
+
 .team-container
 
 .team-title {
@@ -246,11 +249,14 @@ h6 {
     width: calc((100% - 3 * 24px) / 4);
 }
 
-.team-subtitle { 
+.team-name {
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.team-conteiner {
-
+.team-subtitle { 
+    
 }
 
 .team-item-text {
