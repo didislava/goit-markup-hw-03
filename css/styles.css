@@ -34,7 +34,7 @@ h6 {
     margin-bottom: 0px;
 }
 
-.header-conteiner {
+.header-container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -47,7 +47,7 @@ h6 {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner {
+.header-container {
     display: flex; 
     align-items: center;
 }
@@ -124,7 +124,7 @@ h6 {
     background-color: #2e2f42;
 }
 
-.hero-conteiner {
+.hero-container {
     padding: 188px 472px 188px;
 }
 
