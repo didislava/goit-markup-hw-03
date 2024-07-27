@@ -55,7 +55,6 @@ h6 {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0;    
 }
 
 .logo {
@@ -78,6 +77,10 @@ h6 {
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
+}
+
+.header-menu-item {
+    padding: 24px 0;    
 }
 
 .header-contacts-list {
