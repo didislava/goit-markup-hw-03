@@ -76,11 +76,6 @@ h6 {
     display: flex;
     margin-left: 76px;
     gap: 40px;
-    padding: 24px 0;
-}
-
-.header-menu-item {
-    padding: 24px 0;    
 }
 
 .header-contacts-list {
@@ -124,10 +119,11 @@ h6 {
 
 .hero {
     background-color: #2e2f42;
+
 }
 
 .hero-container {
-    padding: 188px 472px 188px;
+    padding: 188px;
 }
 
 
@@ -138,7 +134,7 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
@@ -155,6 +151,7 @@ h6 {
     color: #ffffff;
     margin: 0 auto;
     display: block;
+    min-width: 169px;
 }
 
 .hero-primary-button:hover,
