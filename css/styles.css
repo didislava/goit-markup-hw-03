@@ -249,7 +249,7 @@ h6 {
     width: calc((100% - 3 * 24px) / 4);
 }
 
-.container team-name {
+.container-team-name {
     padding: 30px 0;
     text-align: center;
 }
