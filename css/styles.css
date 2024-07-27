@@ -77,10 +77,10 @@ h6 {
     display: flex;
     margin-left: 76px;
     gap: 40px;
+    padding: 24px 0px;
 }
 
 .header-contacts-list {
-    padding: 24px 0px;
     font-style: normal;
     margin-left: auto;
 }
