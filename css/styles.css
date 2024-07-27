@@ -164,7 +164,7 @@ h6 {
 }
 
 .features-container {
-    
+
 }
 
 .features-list {
@@ -173,8 +173,7 @@ h6 {
 }
 
 .features-items {
-    width: calc((100%- 2 * 24px) / 3)
-
+    width: calc((100% - 72px) / 4)
 }
 
 
@@ -226,6 +225,8 @@ h6 {
     padding: 120px;
 }
 
+.team-container
+
 .team-title {
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -265,6 +266,10 @@ h6 {
     padding: 120px;
 }
 
+.portfolio-container {
+
+}
+
 .portfolio-title {
     text-transform: capitalize;
     margin: 72px;
@@ -273,7 +278,7 @@ h6 {
 .portfolio-list {
     display: flex;
     gap: 48px 24px;
-    width: calc((100 - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
     flex-wrap: wrap;
 }
 
