@@ -34,7 +34,7 @@ h6 {
     margin-bottom: 0px;
 }
 
-.conteiner {
+.header-conteiner {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -77,12 +77,13 @@ h6 {
     display: flex;
     margin-left: 76px;
     gap: 40px;
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 
 .header-contacts-list {
     font-style: normal;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .header-contacts {
