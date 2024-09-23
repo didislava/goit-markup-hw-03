@@ -227,19 +227,17 @@ h6 {
 }
 
 .team-container {
-
+    padding: 32px 0 32px; /* Виправлена помилка */
 }
 
 .team-title {
     text-transform: capitalize;
     margin-bottom: 72px;
-    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-
 }
 
 .team-item {
@@ -247,7 +245,6 @@ h6 {
     border-radius: 0 0 4px 4px;
     border: none;
     width: calc((100% - 3 * 24px) / 4);
-    padding: 32px 0 32p;
 }
 
 .team-name {
@@ -256,17 +253,17 @@ h6 {
 }
 
 .team-subtitle {
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
 }
 
 .team-item-text {
     margin-bottom: 32px;
-    
 }
 
 .team-image {
     margin-bottom: 32px;
 }
+
 
 .portfolio {
     padding: 120px 0;
