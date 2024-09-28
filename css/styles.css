@@ -78,7 +78,7 @@ h6 {
 
 .header-menu-list{
     display: flex;
-    margin-left: 76px;
+    /*margin-left: 76px;*/
     gap: 40px;
 }
 
@@ -258,15 +258,16 @@ h6 {
 }
 
 .team-subtitle {
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    padding-bottom: 8px;
 }
 
 .team-item-text {
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
 }
 
 .team-image {
-    margin-bottom: 32px;
+   /* margin-bottom: 32px;*/
 }
 
 
@@ -280,7 +281,7 @@ h6 {
 
 .portfolio-title {
     text-transform: capitalize;
-    margin: 72px;
+    margin-bottom: 72px; /*змінила на маржин боттом*/
 }
 
 .portfolio-list {
@@ -301,11 +302,12 @@ h6 {
 
 .portfolio-image {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
 }
 
 .portfolio-subtitle {
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    padding-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -321,7 +323,7 @@ h6 {
 
 .logo-footer {
     display: inline-block;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
 }
 
 .footer-logo-color {
